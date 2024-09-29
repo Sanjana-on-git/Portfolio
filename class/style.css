@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+body{
+    background-color: black;
+    margin: 0;
+}
+
+
+.img1{
+    margin-top: 3px;
+    margin-left:0px;
+    height: 290px;
+    width: 290px;
+    border: 5px solid #FD871B;
+  
+    
+    border-radius: 50%;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+     margin-bottom: 120px;
+   
+}
+h1{
+   
+    font-family:"Kanit", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 110px;
+    margin-left: 50px;
+    background: -webkit-linear-gradient(#583701, #c17d00,#ffae00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container{
+    border: 4px solid salmon;
+    margin-top:130px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    height:350px;
+    width:750px;
+  
+}
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+  }
+  h3{
+    color: salmon;
+  }
+button{
+    height: 30px;
+    width:150px;
+    background-color: black;
+    color: salmon;
+    border: 2px solid salmon;
+    border-radius: 5%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container2{
+    border: 2px solid salmon;
+    margin-left: 30px;
+    width: 330px;
+   
+    height:305px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  ul {
+  margin-top: 10px;
+    
+  
+    background: linear-gradient(to right, #95959501,#95959550, #95959500);
+    width:900px;
+  }
+li{
+  display: inline-block;
+  justify-content: center;
+}
+  li a{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd00;
+    text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+   color: #FD871B;
+   font-family: "Kanit", sans serif;
+   font-size: 15px;
+  }
+
+
+.playwrite-de-grund{
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+a{
+  margin-top: 0px;
+  display: inline;
+}
+.flex2{
+  display: flex;
+  flex-direction: row;
+  
+}
+.btn1{
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 50px;
+}
+#About
+{
+ 
+  background-image:url(img2.jpeg);
+  background-size: cover;
+  height:780px;
+    width:1480px;
+}
+#About img{
+  filter: blur(5px);
+}
+
+.container3{
+  height: 3900px;
+  width: 100px;
+}
+#Home{
+  height: 500px;
+}
+.loc{
+  height: 40px;
+  
+}
+/* ALBUM CSS */
+.container3{
+  width: 100%;
+  height: 100vh;
+  background: #f2e9ff00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-box{
+  width: 100px;
+  height: 500px; 
+  margin: 10px;
+  margin-left: 20px;
+  border-radius: 30px;
+  background: url(books.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: width 0.5s;
+}
+.img-box:nth-child(2){
+  background: url(skills.jpeg);
+}
+.img-box:nth-child(3){
+  background: url(project.jpg);
+}
+.img-box:nth-child(4){
+  background: url(activity.jpg);
+}
+.img-box h3{
+  color: #ffff;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  opacity: 0;
+  transition: top 0.5s , opacity 0.5s ;
+}
+.img-box:hover{
+  width: 300px;
+  cursor: pointer;
+}
+.img-box:hover h3{
+  opacity: 1;
+  
+}
+#About ul{
+  background: linear-gradient(to right, #95959501,#000000bc, #95959500);
+  
+}
+.img-box p{
+  color: #000000;
+  position: absolute;
+  right: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ;
+  background: rgba(255, 255, 255, 0.501);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left:20px;
+  padding-right: 10px;
+  border-radius: 30px;
+  width: 230px;
+  
+}
+.img-box:hover p{
+  opacity: 1;
+}
+p::-webkit-scrollbar {
+  width: 12px;               
+}
+
+p::-webkit-scrollbar-track {
+  background: rgba(0, 140, 255, 0.363);     
+  -webkit-border-radius: 16px;
+    border-radius: 16px;
+}
+
+p::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);    
+  -webkit-border-radius: 16px;
+  border-radius: 16px;     
+  border: 3px solid rgb(98, 0, 255);  
+}
+.bg{
+  
+    backdrop-filter: blur(4px);
+    background: #ffffff20;
+    width:1520px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.container7 {
+ padding-top: 150px;
+  height: 300px;
+  width: 450px;
+
+ margin-right: 0;
+}
+.desc{
+  color: rgb(122, 120, 120);
+  font-weight: lighter;
+  font-size: 11px;
+  margin-top: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;margin-left: 120px;margin: top -10px;
+}
+.desc2{
+  color: rgb(0, 0, 0);
+ 
+  margin-top: 0;
+  margin-bottom: 5;
+}
+.big-font{
+  font-size: 30px;font-family:Trebuchet MS, Helvetica, sans-serif;color: rgb(0, 0, 0);margin-bottom: 0;margin-left: 130px;margin-top:0;
+}
+.gowun-batang-regular {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gowun-batang-bold {
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.img5{
+  margin-top: 0;
+  height: 30px;
+  border-radius:50%;
+  border: 4px solid rgb(61, 61, 255);
+  margin-left:10px ;
+}
+.img6{
+  height: 120px;margin-top:0;border-radius: 50%;border: 4px solid blue;
+}
+#Contact{
+
+  background-color: white;
+  height: 680px;
+  width: 1520px;
+  margin-bottom: 90px;
+  overflow: hidden;
+  
+}
+#Contact .flex{
+  margin-left: 215px;
+  margin-bottom: 290px;
+}
+#Contact .flex2{
+  
+ margin-top: 0;
+  align-items: center;
+  padding-left: 500px;
+}
+
+#Contact ul{
+  margin-top: 10px;
+    margin-bottom: 0;
+  
+    background: linear-gradient(to right,white, #0015fb53,#95959550, #0015fb53,white);
+    width:900px;
+  }   
+
+  #Contact li{
+  display: inline-block;
+  justify-content: center;
+}
+  #Contact li a{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd00;
+    text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+   color: #000587;
+   font-family: "Kanit", sans serif;
+   font-size: 15px;
+  }
+  .img6{
+    margin-left: 120px;
+    margin-bottom:10px;
+    
+  }
+  .card{
+    height: 500px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border-radius: 30px;
+  background: lightgrey;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+
+  }
+  a{
+    color: #FD871B;
+    text-decoration: none;
+  }
+  add{
+    color: rgb(0, 0, 0);
+    margin-left: 0px;
+    margin-left: 0px;
+  }
+
+
+@media screen and (max-width:360px)  {
+     
+  
+    ul{
+      width: fit-content;
+    }
+    .img00{
+      margin:0;
+    }
+    .img01{
+      margin:0;
+    }
+   
+    .container{
+      margin-bottom: 100px;
+      width: 350px;
+      height: 800px;
+     margin: 0;
+     padding: 0;
+     border: transparent;
+    }
+    .img1{
+      margin-left:0px;
+      height: 150px;
+      width: 150px;
+
+    }
+    .flex2{
+      margin-right: 90px;
+    }
+   
+      .flex{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 250px; 
+        margin: 0;
+        padding: 0;
+      }
+      .container2{
+         width:230px;
+         height:160px;
+         margin: 0;
+         padding: 0;
+         margin-left: 60px;
+         margin-bottom: 40px;
+         margin-top: 20px;
+      }
+      section #Home{
+        width: 360px;
+        height: 700px;
+      }
+      #About .bg{
+        width: 360px;
+        height: 700px;
+        background: url(About-resp.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+      .details{
+        display: block;
+        margin: auto;
+      }
+      h1{
+        font-size: 40px;
+        margin: 0;
+      }
+      .flex{
+        margin:0;
+        padding: 0;
+      }
+      
+      .gallery{
+        display: flex;
+        flex-direction: row;
+      }
+      .img-box{
+        width: 20px;
+        height: 200px; 
+        margin: 10px;
+        margin-left: 10px;
+        margin-bottom: 20PX;
+        border-radius: 30px;
+        background: url(books.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        transition: height 0.5s;
+        overflow-x: scroll;
+      }
+      .img-box:nth-child(2){
+        background: url(skills.jpeg);
+      }
+      .img-box:nth-child(3){
+        background: url(project.jpg);
+      }
+      .img-box:nth-child(4){
+        background: url(activity.jpg);
+      }
+      .img-box h3{
+        color: #ffff;
+        position: absolute;
+        top: 0;
+        left: 30px;
+        opacity: 0;
+        transition: top 0.5s , opacity 0.5s ;
+      }
+      .img-box:click p{
+        margin-bottom: 10px;
+        
+      }
+      
+      .img-box:click{
+        width: 300px;
+        cursor: pointer;
+        margin-bottom: 40px;
+      }
+      
+      .img-box:click h3{
+        opacity: 1;
+        
+      }
+      #Contact ul{
+        float: left;
+        width:350px;
+        text-align: center;
+        justify-content: center;
+      }
+      .card{
+        width: 360px;
+       margin-top: 70px;
+       margin-right: 0;
+    align-items: center;
+    justify-content: center;
+ 
+  
+      }
+      .container7{
+        float: left;
+        margin-right: 00px;
+      
+        
+      }
+  #About p{
+    margin: 0;
+  }
+      .img6{
+        float: left;
+       
+      }
+      .desc{
+      margin-right: 150px;
+     
+        
+      }
+        .desc2{
+        margin-left: 50px;
+         margin-bottom: 0;
+        }
+       .big-font{
+        margin-top: 150px;
+       margin-left: 80px;
+       padding-right: 70px;
+      }
+   .loc{
+    align-self: start;
+   }
+  #Contact .flex{
+   margin-right: 30px;
+  }
+  .flex1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+  }
+}
